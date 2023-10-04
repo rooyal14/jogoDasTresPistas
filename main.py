@@ -107,8 +107,8 @@ while True:
     os.system('cls' if os.name=='nt' else 'clear')
     print()
     print(f"--------- Time {time_atual} ----------")
-    print()    
-    escolha_pergunta = int(input("Número do cartão: "))
+    print()
+    escolha_pergunta = int(input("Número do cartão: "))+1
     time.sleep(2)
     os.system('cls' if os.name=='nt' else 'clear')
     if(escolha_pergunta in listaNumerosUsados):
